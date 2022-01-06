@@ -1,0 +1,19 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0; */
+}
+h1{
+    font-size: 40px;
+}
+.my-name{
+    color: blueviolet;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
