@@ -14,6 +14,9 @@ h1{
 .flexible-container{
     display: flex;
 }
+#first-paragraph{
+    padding-bottom: 20px;
+}
 .half-width{
     width: 50%;
     margin-top: 40px;
@@ -28,4 +31,50 @@ h1{
     background-image: linear-gradient( blueviolet, #c765ee);
     color: white;
     border-radius: 20px;
+    margin-right: 20px;
+}
+.about-section{
+    display: flex;
+    padding-top: 1.5in;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.hazrat-pic img{
+    width: 80%;
+    border-radius: 100%;
+    padding: 7px;
+    border: 7px solid blueviolet;
+}
+.hazratalirajib{
+    margin:-20px 0px 2px 0px;
+}
+.about-me{
+    border-bottom: 5px solid blueviolet;
+}
+.about-my-self{
+    width: 50%;
+}
+.my-infos{
+    display: flex;
+}
+.info-1{
+    padding-right: 10%;
+}
+.social-icons{
+    display: flex;
+    margin-right: 30px;
+}
+.icon{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1.5px solid blueviolet;
+    border-radius: 10px;
+}
+.about-bottom{
+        display:inline-flex;
+        margin-top: 30px;
 }
